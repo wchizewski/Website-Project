@@ -1,3 +1,69 @@
 html {
     background: url(../img/froghomepage.jpg) no-repeat center fixed;
+    background-size: cover;
 }
+
+#quote {
+    font-style: italic;
+}
+
+#homePage {
+    padding-right: 50px;
+    text-decoration: underline red;
+    color: white;
+    font-weight: 300;
+}
+
+#homePage:hover {
+    text-decoration: underline;
+}
+
+#aboutPage {
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+#aboutPage:hover {
+    text-decoration: underline;
+}
+
+#quizPage {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+#quizPage:hover {
+    text-decoration: underline;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    padding-top: 50px;
+    color: blanchedalmond;
+}
+
+#quote {
+    font-family: monospace;
+    font-size: 19.5px;
+    padding-top: 58px;
+    padding-bottom: 20px;
+    color: blanchedalmond;
+
+}
+
+#jean {
+    font-weight: 600;
+    font-size: 17px;
+    color: forestgreen;
+}
+
+
+

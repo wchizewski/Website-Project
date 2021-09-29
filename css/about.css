@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+#homePage {
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+#homePage:hover {
+    text-decoration: underline;
+}
+
+#aboutPage {
+    padding-right: 50px;
+    text-decoration: none;
+    text-decoration: underline red;
+    color: white;
+    font-weight: 300;
+}
+
+#aboutPage:hover {
+    text-decoration: underline;
+}
+
+#quizPage {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+#quizPage:hover {
+    text-decoration: underline;
+}
