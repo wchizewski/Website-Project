@@ -1,15 +1,41 @@
+html {
+    background: url(../img/froghomepage.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+body {
+    text-align: center;
+}
 
+div{
+    width: 600px;
+    padding: 20px 80px;
+    padding-top: 2px;
+    margin: 20px auto;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(255, 255, 255, 0.8)
+}
 
+h1{
+    background: #014111;
+    border-radius: 25px;
+    color: white;
+}
 
+h2{
+    font-size: 30;
+}
 
-
-
-
+p {
+    font-size: 14px;
+    text-align: left;
+}
 
 
 
 #homePage {
-    padding-right: 50px;
+    font-size: 18px;
+    margin-right: 50px;
     text-decoration: none;
     color: white;
     font-weight: 300;
@@ -20,7 +46,8 @@
 }
 
 #aboutPage {
-    padding-right: 50px;
+    font-size: 18px;
+    margin-right: 50px;
     text-decoration: none;
     text-decoration: underline red;
     color: white;
@@ -32,6 +59,7 @@
 }
 
 #quizPage {
+    font-size: 18px;
     text-decoration: none;
     color: white;
     font-weight: 300;

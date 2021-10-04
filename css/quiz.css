@@ -1,15 +1,19 @@
+html {
+    background: url(../img/froghomepage.jpg) no-repeat center fixed;
+    background-size: cover;
+}
 
-
-
-
-
-
+body {
+    text-align: center;
+}
 
 #homePage {
-    padding-right: 50px;
+    margin-right: 50px;
     text-decoration: none;
     color: white;
     font-weight: 300;
+    font-size: 18px;
+
 }
 
 #homePage:hover {
@@ -17,10 +21,12 @@
 }
 
 #aboutPage {
-    padding-right: 50px;
+    margin-right: 50px;
     text-decoration: none;
     color: white;
     font-weight: 300;
+    font-size: 18px;
+
 }
 
 #aboutPage:hover {
@@ -32,6 +38,7 @@
     text-decoration: underline red;
     color: white;
     font-weight: 300;
+    font-size: 18px;
 }
 
 #quizPage:hover {
