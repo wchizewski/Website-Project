@@ -2,7 +2,8 @@ html {
     background: url(../img/froghomepage.jpg) no-repeat center fixed;
     background-size: cover;
 }
-body {
+
+body{
     text-align: center;
 }
 
@@ -13,7 +14,7 @@ div{
     margin: 20px auto;
     border-radius: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: rgba(255, 255, 255, 0.8)
+    background: rgba(255, 255, 255, 0.8);
 }
 
 h1{
@@ -23,15 +24,24 @@ h1{
 }
 
 h2{
-    font-size: 30;
+    font-size: 30px;
+    color: #006319;
 }
 
-p {
+.info {
     font-size: 14px;
     text-align: left;
 }
 
+img {
+    width: 415px;
+    cursor: pointer;
+}
 
+.clicknotice{
+    font-size: 12px;
+    font-style: italic;
+}
 
 #homePage {
     font-size: 18px;
