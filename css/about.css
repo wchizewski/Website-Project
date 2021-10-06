@@ -38,6 +38,10 @@ img {
     cursor: pointer;
 }
 
+img:hover{
+    border: 1px solid #014111;   
+}
+
 .clicknotice{
     font-size: 12px;
     font-style: italic;
