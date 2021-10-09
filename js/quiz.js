@@ -42,6 +42,7 @@ function showResults(){
         feedback1.innerHTML = " Incorrect"
         feedback1.style.color = "red"
         answer1InEl.style.border = "3px solid red"
+        ques1score = 0
     }
     // question 2
     if (ans2 === "goliath frog" || ans2 === "the goliath frog"){
@@ -53,9 +54,10 @@ function showResults(){
         feedback2.innerHTML = " Incorrect"
         feedback2.style.color = "red"
         answer2InEl.style.border = "3px solid red"
+        ques2score = 0
     }
     // question 3
-    if (ans3 === "tapole" || ans3 === "tadpoles"){
+    if (ans3 === "tadpole" || ans3 === "tadpoles"){
         feedback3.innerHTML = " Correct!"
         feedback3.style.color = "green"
         answer3InEl.style.border = "3px solid green"
@@ -64,6 +66,7 @@ function showResults(){
         feedback3.innerHTML = " Incorrect"
         feedback3.style.color = "red"
         answer3InEl.style.border = "3px solid red"
+        ques3score = 0
     }
     // question 4
     if (ans4 === "10" || ans4 === "ten"){
@@ -75,6 +78,7 @@ function showResults(){
         feedback4.innerHTML = " Incorrect"
         feedback4.style.color = "red"
         answer4InEl.style.border = "3px solid red"
+        ques4score = 0
     }
     // question 5
     if (ans5 === "lake titicaca"){
@@ -86,12 +90,15 @@ function showResults(){
         feedback5.innerHTML = " Incorrect"
         feedback5.style.color = "red"
         answer5InEl.style.border = "3px solid red"
+        ques5score = 0
     }
     let quizScore = ques1score + ques2score + ques3score +  ques4score + ques5score
     percentage.innerHTML = quizScore + "/5 = " + quizScore/5*100 + "%"
     if (quizScore >= 3 ){
         passOrFail.innerHTML = "You Passed!"
+        passOrFail.style.color = "green"
     } else {
         passOrFail.innerHTML = "You failed, try again..."
+        passOrFail.style.color = "red"
     }
 }
