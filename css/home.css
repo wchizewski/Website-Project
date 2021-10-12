@@ -3,8 +3,37 @@ html {
     background-size: cover;
 }
 
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    padding-top: 35px;
+    color: blanchedalmond;
+    text-shadow: 4px 4px black;
+
+}
+
 #quote {
     font-style: italic;
+    font-size: 22px;
+}
+
+#jean {
+    text-shadow: 1px 1px black;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 #homePage {
@@ -45,19 +74,6 @@ html {
     text-decoration: underline;
 }
 
-body {
-    text-align: center;
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 88px;
-    padding-top: 35px;
-    color: blanchedalmond;
-    text-shadow: 4px 4px black;
-
-}
-
 #quote {
     font-family: monospace;
     font-size: 19.5px;
@@ -67,21 +83,7 @@ h1 {
     text-shadow: 1px 1px black;
 }
 
-#jean {
-    text-shadow: 1px 1px black;
-    font-weight: 550;
-    font-size: 18px;
-}
 
-a {
-    color: blanchedalmond;
-    text-decoration: none;
-
-}
-
-a:hover{
-    text-decoration: underline;
-}
 
 
 
