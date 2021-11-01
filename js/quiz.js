@@ -1,23 +1,23 @@
 // Frog Website Project by Will
 
 // variables to store html elements
-let answer1InEl = document.getElementById("question1");
-let answer2InEl = document.getElementById("question2");
-let answer3InEl = document.getElementById("question3");
-let answer4InEl = document.getElementById("question4");
-let answer5InEl = document.getElementById("question5");
-let feedback1 = document.getElementById("feedback1");
-let feedback2 = document.getElementById("feedback2");
-let feedback3 = document.getElementById("feedback3");
-let feedback4 = document.getElementById("feedback4");
-let feedback5 = document.getElementById("feedback5");
-let percentage = document.getElementById("percentage");
-let passOrFail = document.getElementById("passorfail");
-let ques1score = 0;
-let ques2score = 0;
-let ques3score = 0;
-let ques4score = 0;
-let ques5score = 0;
+answer1InEl = document.getElementById("question1");
+answer2InEl = document.getElementById("question2");
+answer3InEl = document.getElementById("question3");
+answer4InEl = document.getElementById("question4");
+answer5InEl = document.getElementById("question5");
+feedback1 = document.getElementById("feedback1");
+feedback2 = document.getElementById("feedback2");
+feedback3 = document.getElementById("feedback3");
+feedback4 = document.getElementById("feedback4");
+feedback5 = document.getElementById("feedback5");
+percentage = document.getElementById("percentage");
+passOrFail = document.getElementById("passorfail");
+ques1score = 0;
+ques2score = 0;
+ques3score = 0;
+ques4score = 0;
+ques5score = 0;
 
 
 // Event listeners
